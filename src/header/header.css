@@ -2,13 +2,88 @@
   display: table;
   position: relative;
   width: 100%;
+  border-spacing: 20px;
+  margin: 0px -20px;
 }
 .wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-promo {
   display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  text-align: left;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-promo h1 {
+  font-size: 2.2em;
+  font-weight: 100;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-promo h2 {
+  font-size: 1.7em;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-promo h3 {
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  color: #555555;
 }
 .wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-logo {
   display: table-cell;
+  width: 40%;
+  vertical-align: middle;
+  text-align: center;
 }
 .wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links {
   display: table-cell;
+  width: 30%;
+  vertical-align: middle;
+  text-align: right;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-socials > a {
+  display: inline-block;
+  margin: 2px 2px;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-socials > a > .fa {
+  font-size: 20px;
+  line-height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(205, 205, 205, 0.75);
+  background: #FFFFFF;
+  color: #266181;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-socials > a > .fa:hover {
+  color: #FFFFFF;
+  background: #266181;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-socials > a:hover {
+  text-decoration: none;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-phone,
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-email {
+  margin: 10px 0px 0px 0px;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-phone > a,
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-email > a {
+  display: inline-block;
+  margin: 2px 2px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #555555;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-phone > a > .fa,
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-email > a > .fa {
+  font-size: 14px;
+  line-height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  text-align: center;
+  box-shadow: 1px 1px 1px rgba(205, 205, 205, 0.75);
+  color: #FFFFFF;
+  background: #266181;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-phone > a:hover,
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-email > a:hover {
+  text-decoration: none;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links > .wg.wg-links-email > a > span {
+  text-decoration: underline;
 }

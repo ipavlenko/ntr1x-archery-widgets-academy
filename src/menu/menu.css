@@ -1,0 +1,29 @@
+.wg.wg-academy-menu > .wg.wg-content {
+  font-size: 1.1em;
+}
+.wg.wg-academy-menu > .wg.wg-content > .wg.wg-menu-table {
+  display: table;
+  position: relative;
+  margin: 0px;
+  padding: 0px;
+}
+.wg.wg-academy-menu > .wg.wg-content > .wg.wg-menu-table > .wg.wg-table-item {
+  display: table-cell;
+  border-spacing: 8px;
+}
+.wg.wg-academy-menu > .wg.wg-content > .wg.wg-menu-table > .wg.wg-table-item > a {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #194449;
+  color: #FFFFFF;
+}
+.wg.wg-academy-menu > .wg.wg-content > .wg.wg-menu-table > .wg.wg-table-item > a:hover {
+  border-radius: 4px;
+  background: #3E779B;
+  text-decoration: none;
+}
+.wg.wg-academy-menu > .wg.wg-content > .wg.wg-menu-table > .wg.wg-table-item.active > a {
+  border-radius: 4px;
+  background: #3E779B;
+}

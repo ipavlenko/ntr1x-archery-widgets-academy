@@ -17,14 +17,17 @@
         ],
     }));
 
-    console.log(123);
-
     Widgets.Item(Widgets.HeadersGroup, {
         name: 'academy-header',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/header/header.png',
         widget: Widgets.build(HeaderWidget, {
+            outer: {
+                value: {
+                    background: { value: '#F5F5F5' },
+                },
+            },
             inner: {
-                value:  {
+                value: {
                     margin: { value: '0px auto' },
                 },
             },
@@ -36,8 +39,8 @@
             gl: { value: 'https://plus.google.com/communities/102202642996727382512' },
             logo: { value: '/assets/vendor/ntr1x-archery-widgets-academy/src/header/img/logo.png' },
             promo: { value: `
-                <h1>Voted the UK's Leading Residential Golf School by Today’s Golfer Magazine</h1>
-                <h4>by Today’s Golfer Magazine</h4>
+                <h1>Voted the UK's<br />Leading Residential<br />Golf School</h1>
+                <h3>by Today’s Golfer Magazine</h3>
             ` },
         }),
     });
