@@ -1,7 +1,7 @@
 (function($, Vue, Core, Widgets) {
 
-    Vue.component('default-button', {
-        template: '#default-button',
+    Vue.component('academy-header', {
+        template: '#academy-header',
         mixins: [ Core.WidgetMixin ],
     });
 

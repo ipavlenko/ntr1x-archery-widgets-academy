@@ -1,19 +1,28 @@
 <template id="academy-header">
     <default-box :bindings.sync="bindings" class="wg wg-widget wg-academy-header">
-        <div class="wg wg-header-overlay" :style="{
-            'top': bindings.overlay.top,
-            'left': bindings.overlay.left,
-            'right': bindings.overlay.right,
-            'bottom': bindings.overlay.bottom,
-        }">
-            <default-box :bindings.sync="bindings.overlay" class="wg wg-overlay-box">
-                <div class="overlay-logo">
-                    <img :src="bindings.overlay.logo" />
+        <div class="wg wg-header-table">
+            <div class="wg wg-table-promo">
+                {{{ bindings.promo }}}
+            </div>
+            <div class="wg wg-table-logo">
+                <img :src="bindings.logo" />
+            </div>
+            <div class="wg wg-table-links">
+                <div class="wg wg-links-socials">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-google" aria-hidden="true"></i>
+                    <i class="fa fa-vk" aria-hidden="true"></i>
                 </div>
-                <div class="overlay-title">
-                    {{{ bindings.overlay.content }}}
+                <div class="wg wg-links-phone">
+                    <span>{{ bindings.phone }}</span>
+                    <i class="fa fa-phone" aria-hidden="true"></i>
                 </div>
-            </default-box>
+                <div class="wg wg-links-email">
+                    <span>{{ bindings.email }}</span>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                </div>
+            </div>
         </div>
     </default-box>
 </template>

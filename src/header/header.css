@@ -1,0 +1,14 @@
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table {
+  display: table;
+  position: relative;
+  width: 100%;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-promo {
+  display: table-cell;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-logo {
+  display: table-cell;
+}
+.wg.wg-academy-header > .wg.wg-content > .wg.wg-header-table > .wg.wg-table-links {
+  display: table-cell;
+}

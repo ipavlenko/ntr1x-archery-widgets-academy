@@ -8,7 +8,7 @@ gulp.task('scripts', function() {
     return gulp.src(['src/**/*.js'])
         .pipe(sourcemaps.init())
         // .pipe(browserify())
-        .pipe(concat('shell.js'))
+        .pipe(concat('widgets.js'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/js/'))
 })
@@ -17,7 +17,7 @@ gulp.task('styles', function() {
     return gulp.src(['src/**/*.css'])
         .pipe(sourcemaps.init())
         .pipe(cleancss())
-        .pipe(concat('shell.css'))
+        .pipe(concat('widgets.css'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/css/'));
 })
@@ -25,7 +25,7 @@ gulp.task('styles', function() {
 gulp.task('templates', function() {
     return gulp.src(['src/**/*.htm'])
         .pipe(sourcemaps.init())
-        .pipe(concat('shell.htm'))
+        .pipe(concat('widgets.htm'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('dist/htm/'));
 })
