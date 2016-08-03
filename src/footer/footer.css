@@ -1,0 +1,45 @@
+.wg.wg-academy-footer > .wg.wg-content > .wg.wg-footer-table {
+  display: table;
+  position: relative;
+  width: 100%;
+  border-spacing: 20px;
+  margin: 0px -20px;
+  color: #FFFFFF;
+}
+.wg.wg-academy-footer > .wg.wg-content > .wg.wg-footer-table > .wg.wg-table-copy {
+  display: table-cell;
+  width: 40%;
+  vertical-align: middle;
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+}
+.wg.wg-academy-footer > .wg.wg-content > .wg.wg-footer-table > .wg.wg-table-links {
+  display: table-cell;
+  width: 60%;
+  vertical-align: middle;
+  text-align: right;
+}
+.wg.wg-academy-footer > .wg.wg-content > .wg.wg-footer-table > .wg.wg-table-links > a {
+  display: inline-block;
+  margin: 2px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+.wg.wg-academy-footer > .wg.wg-content > .wg.wg-footer-table > .wg.wg-table-links > a > .fa {
+  font-size: 14px;
+  line-height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  background: #266181;
+}
+.wg.wg-academy-footer > .wg.wg-content > .wg.wg-footer-table > .wg.wg-table-links > a > .fa:hover {
+  color: #266181;
+  background: #FFFFFF;
+}
+.wg.wg-academy-footer > .wg.wg-content > .wg.wg-footer-table > .wg.wg-table-links > a:hover {
+  text-decoration: none;
+}
