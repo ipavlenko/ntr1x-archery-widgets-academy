@@ -6,13 +6,13 @@
                     'margin': item.margin || bindings.items.style.margin,
                     'padding': item.padding || bindings.items.style.padding,
                     'background': item.background || bindings.items.style.background,
-                }">{{{ item.title }}}</a>
+                }">{{ item.title }}</a>
                 <a v-if="!item.vlink" :href="item.href" :style="{
                     'margin': item.margin || bindings.items.style.margin,
                     'padding': item.padding || bindings.items.style.padding,
                     'background': item.background || bindings.items.style.background,
                 }"
-                >{{{ item.title }}}</a>
+                >{{ item.title }}</a>
             </li>
         </ul>
     </default-box>

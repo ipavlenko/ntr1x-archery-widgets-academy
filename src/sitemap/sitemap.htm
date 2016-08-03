@@ -1,0 +1,32 @@
+<template id="academy-sitemap">
+    <default-box :bindings.sync="bindings" class="wg wg-widget wg-academy-sitemap">
+        <ul class="wg wg-sitemap-table">
+            <li v-for="item in bindings.items.collection" class="wg wg-table-item" :style="{
+                'margin': item.margin || bindings.items.style.margin,
+                'padding': item.padding || bindings.items.style.padding,
+                'background': item.background || bindings.items.style.background,
+            }">
+                <div class="wg wg-subitems-head">
+                    <a v-link="{ path: item.vlink }" :href="item.href" :style="{
+                        'margin': item.head.margin || bindings.items.head.margin,
+                        'padding': item.head.padding || bindings.items.head.padding,
+                        'background': item.head.background || bindings.items.head.background,
+                    }">{{ item.title }}</a>
+                </div>
+                <ul class="wg wg-subitems-body" :style="{
+                    'margin': item.body.margin || bindings.items.body.margin,
+                    'padding': item.body.padding || bindings.items.body.padding,
+                    'background': item.body.background || bindings.items.body.background,
+                }">
+                    <li v-for="subitem in item.items.collection" class="wg wg-list-item">
+                        <a v-link="{ path: subitem.vlink }" :href="subitem.href" :style="{
+                            'margin': subitem.margin || item.items.style.margin,
+                            'padding': subitem.padding || item.items.style.padding,
+                            'background': subitem.background || item.items.style.background,
+                        }">{{ subitem.title }}</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </default-box>
+</template>
