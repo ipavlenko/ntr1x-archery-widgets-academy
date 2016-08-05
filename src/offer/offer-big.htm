@@ -1,0 +1,20 @@
+<template id="academy-offer-big">
+    <default-box :bindings.sync="bindings" class="wg wg-widget wg-academy-offer-big">
+        <div class="wg wg-offer-table">
+            <div class="wg wg-table-image" :style="{
+                'background': bindings.image
+            }">
+            </div>
+            <div class="wg wg-table-desc">
+                <div class="wg wg-desc-panel">
+                    <h3 class="wg wg-panel-title">{{ bindings.title }}</h3>
+                    <div class="wg wg-panel-promo">{{{ bindings.promo }}}</div>
+                    <div class="wg wg-panel-price">{{ bindings.price }}</div>
+                    <div class="wg wg-panel-buttons">
+                        <a :href="bindings.url">{{ bindings.button }}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </default-box>
+</template>

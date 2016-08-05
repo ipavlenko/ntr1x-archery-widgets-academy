@@ -1,0 +1,80 @@
+.wg.wg-academy-offer-above > .wg.wg-content > .wg.wg-offer-panel > .wg.wg-panel-title {
+  margin: 10px 0px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 300;
+}
+.wg.wg-academy-offer-small > .wg.wg-content > .wg.wg-offer-panel > .wg.wg-panel-title {
+  margin: 10px 0px;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: 300;
+}
+.wg.wg-academy-offer-small > .wg.wg-content > .wg.wg-offer-panel > .wg.wg-panel-buttons {
+  margin: 10px 0px;
+}
+.wg.wg-academy-offer-small > .wg.wg-content > .wg.wg-offer-panel > .wg.wg-panel-buttons > a {
+  background: #8CBD46;
+  color: #FFFFFF;
+  line-height: 28px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #194449;
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3px;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table {
+  display: table;
+  position: relative;
+  border-spacing: 0px;
+  margin: 0px 0px;
+  padding: 0px 0px;
+  width: 100%;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-image {
+  background-size: cover;
+  display: table-cell;
+  vertical-align: top;
+  width: 200px;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-desc {
+  display: table-cell;
+  vertical-align: top;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-desc > .wg.wg-desc-panel {
+  padding: 25px 25px;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-desc > .wg.wg-desc-panel > .wg.wg-panel-title {
+  margin: 10px 0px;
+  color: #FFFFFF;
+  font-size: 28px;
+  font-weight: 300;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-desc > .wg.wg-desc-panel > .wg.wg-panel-promo {
+  margin: 10px 0px;
+  color: #B4CAD5;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-desc > .wg.wg-desc-panel > .wg.wg-panel-price {
+  margin: 20px 0px;
+  color: #B4CAD5;
+  font-style: italic;
+  font-size: 26px;
+  font-weight: 100;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-desc > .wg.wg-desc-panel > .wg.wg-panel-buttons {
+  margin: 10px 0px;
+}
+.wg.wg-academy-offer-big > .wg.wg-content > .wg.wg-offer-table > .wg.wg-table-desc > .wg.wg-desc-panel > .wg.wg-panel-buttons > a {
+  background: #8CBD46;
+  color: #FFFFFF;
+  line-height: 40px;
+  padding: 0px 10px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 1px #194449;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+  border-radius: 3px;
+}

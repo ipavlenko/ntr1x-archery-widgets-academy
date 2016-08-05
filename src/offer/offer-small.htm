@@ -1,0 +1,10 @@
+<template id="academy-offer-small">
+    <default-box :bindings.sync="bindings" class="wg wg-widget wg-academy-offer-small">
+        <div class="wg wg-offer-panel">
+            <h3 class="wg wg-panel-title">{{ bindings.title }}</h3>
+            <div class="wg wg-panel-buttons">
+                <a :href="bindings.url">{{ bindings.button }}</a>
+            </div>
+        </div>
+    </default-box>
+</template>
