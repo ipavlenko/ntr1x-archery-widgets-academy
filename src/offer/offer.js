@@ -10,4 +10,9 @@
         mixins: [ Core.WidgetMixin ],
     });
 
+    Vue.component('academy-offer-above', {
+        template: '#academy-offer-above',
+        mixins: [ Core.WidgetMixin ],
+    });
+
 })(jQuery, Vue, Core, Widgets);

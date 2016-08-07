@@ -76,4 +76,37 @@
         widget: SmallOfferWidgetFactory("#164767 url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/brochure.png') no-repeat top right"),
     });
 
+    var AboveOfferWidget =
+    Widgets.Widget(Widgets.OffersGroup, Widgets.create({
+        name: 'academy-offer-above',
+        tag: 'academy-offer-above',
+        mixins: [ Widgets.WidgetMixin, Widgets.BoxMixin, Widgets.SizeMixin ],
+        props: [
+            { name: 'title', title: 'Title', type: 'string', tab: 'data' },
+            { name: 'url', title: 'URL', type: 'string', tab: 'data' },
+        ],
+    }));
+
+    var AboveOfferWidgetFactory = function(background) {
+
+        return Widgets.build(AboveOfferWidget, {
+            title: { value: 'Online Booking' },
+            url: { value: 'http://google.com' },
+            inner: {
+                value: {
+                    background: { value: background },
+                    margin: { value: '0px auto' },
+                },
+            },
+            width: { value: '235px' },
+            height: { value: '235px' },
+        });
+    }
+
+    Widgets.Item(Widgets.OffersGroup, {
+        name: 'academy-offer-above',
+        thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/offer/offer-above.png',
+        widget: AboveOfferWidgetFactory("url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/beginner.jpg') no-repeat center center"),
+    });
+
 })(jQuery, Vue, Core, Widgets);

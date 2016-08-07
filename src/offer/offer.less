@@ -3,11 +3,39 @@
 .wg.wg-academy-offer-above {
     >.wg.wg-content {
         >.wg.wg-offer-panel {
+            display: block;
+            position: absolute;
+            text-decoration: none;
+            top: 0px;
+            left: 0px;
+            right: 0px;
+            bottom: 0px;
+
             >.wg.wg-panel-title {
-                margin: 10px 0px;
+                position: absolute;
+                display: block;
+                left: 0px;
+                right: 0px;
+                bottom: 0px;
+
                 color: #FFFFFF;
-                font-size: 22px;
-                font-weight: 300;
+                font-size: 18px;
+                font-weight: bold;
+
+                line-height: 48px;
+                padding: 0px 20px;
+                margin: 0px 0px;
+
+                background: rgba(255, 255, 255, 0.8);
+                color: rgba(38, 97, 129, 1.0);
+            }
+
+            &:hover {
+                >.wg.wg-panel-title {
+                    text-decoration: none;
+                    color: #FFFFFF;
+                    background: rgba(38, 97, 129, 0.8);
+                }
             }
         }
     }
