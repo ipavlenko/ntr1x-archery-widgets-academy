@@ -1,6 +1,6 @@
 <template id="academy-menu">
     <default-box :bindings.sync="bindings" class="wg wg-widget wg-academy-menu">
-        <ul class="wg wg-menu-table">
+        <ul class="wg wg-menu-table" v-if="bindings.items.collection">
             <li v-for="item in bindings.items.collection" class="wg wg-table-item" :class="{ 'active': item.active }">
                 <a v-if="item.vlink" v-link="{ path: item.vlink }" :style="{
                     'margin': item.margin || bindings.items.style.margin,
