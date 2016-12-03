@@ -8,7 +8,7 @@
             <div class="wg wg-table-desc">
                 <div class="wg wg-desc-panel">
                     <h3 class="wg wg-panel-title">{{ bindings.title }}</h3>
-                    <div class="wg wg-panel-promo">{{{ bindings.promo }}}</div>
+                    <div class="wg wg-panel-promo" v-html="bindings.promo"></div>
                     <div class="wg wg-panel-price">{{ bindings.price }}</div>
                     <div class="wg wg-panel-buttons">
                         <a :href="bindings.url">{{ bindings.button }}</a>
