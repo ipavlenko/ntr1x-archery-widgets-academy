@@ -1,9 +1,7 @@
 <template id="academy-header">
     <default-box :bindings.sync="bindings" class="wg wg-widget wg-academy-header">
         <div class="wg wg-header-table">
-            <div class="wg wg-table-promo">
-                {{{ bindings.promo }}}
-            </div>
+            <div class="wg wg-table-promo" v-html="bindings.promo"></div>
             <div class="wg wg-table-logo">
                 <img :src="bindings.logo" />
             </div>
