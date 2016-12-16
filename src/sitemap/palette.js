@@ -16,6 +16,7 @@
                     {
                         name: 'collection', title: 'Collection', type: 'multiple', tab: 'data',
                         tabs: [ T.Data, T.Appearance ],
+                        display: (item, index) => item.title.value ? item.title.value : index,
                         props: [ P.Margin, P.Padding, P.Background, P.Vlink, P.Href, P.Title,
                             {
                                 name: 'items', title: 'Items', type: 'object', tab: 'data',
