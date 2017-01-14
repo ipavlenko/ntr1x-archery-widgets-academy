@@ -30,9 +30,12 @@
                 Ideal for players of all levels.</p>
             ` },
             inner: {
-                value: { background: { value: '#266181' } },
+                value: {
+                    background: { value: '#266181' },
+                    margin: { value: '0px auto' },
+                    padding: { value: '0px 0px' },
+                },
             },
-            width: { value: '600px' },
         });
     }
 
@@ -64,7 +67,8 @@
             inner: {
                 value: {
                     background: { value: background },
-                    padding: { value: '15px' },
+                    margin: { value: '0px auto' },
+                    padding: { value: '15px 20px' },
                 },
             },
         });

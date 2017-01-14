@@ -77,10 +77,9 @@
             },
             inner: {
                 value: {
-                    margin: { value: '0px auto' },
+                    margin: { value: '5px 20px' },
                 },
             },
-            width: { value: '1200px' },
             items: {
                 value: {
                     // style: {
