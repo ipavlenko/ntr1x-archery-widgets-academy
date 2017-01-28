@@ -7,7 +7,7 @@
                 'background': item.background || bindings.items.style.background,
             }">
                 <div class="wg wg-subitems-head">
-                    <a v-link="{ path: item.vlink }" :href="item.href" :style="{
+                    <a @click.prevent="$router.puh({ path: item.vlink })" :href="item.href" :style="{
                         'margin': item.head.margin || bindings.items.head.margin,
                         'padding': item.head.padding || bindings.items.head.padding,
                         'background': item.head.background || bindings.items.head.background,
@@ -19,7 +19,7 @@
                     'background': item.body.background || bindings.items.body.background,
                 }">
                     <li v-for="subitem in item.items.collection" class="wg wg-list-item">
-                        <a v-link="{ path: subitem.vlink }" :href="subitem.href" :style="{
+                        <a @click.prevent="$router.push({ path: subitem.vlink })" :href="subitem.href" :style="{
                             'margin': subitem.margin || item.items.style.margin,
                             'padding': subitem.padding || item.items.style.padding,
                             'background': subitem.background || item.items.style.background,

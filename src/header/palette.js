@@ -29,9 +29,9 @@
             inner: {
                 value: {
                     margin: { value: '0px auto' },
+                    padding: { value: '0px 20px' },
                 },
             },
-            width: { value: '1200px' },
             email: { value: 'info@moscowacademy.com' },
             phone: { value: '+7 (495) 123-4567' },
             tw: { value: 'https://twitter.com/bookAgolf' },
