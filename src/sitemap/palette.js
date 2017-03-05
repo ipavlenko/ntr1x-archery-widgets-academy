@@ -82,54 +82,48 @@
             },
             items: {
                 value: {
-                    // style: {
-                    //     value: {
-                    //         padding: { value: '12px 16px' },
-                    //         margin: { value: '4px 2px' },
-                    //     }
-                    // },
                     collection: {
                         value: [
                             {
-                                title: { value: "Tuition Courses" },
+                                title: { value: 'Tuition Courses' },
                                 items: {
                                     value: {
                                         collection: {
                                             value: [
-                                                { title: { value: "Beginner Schools" } },
-                                                { title: { value: "Intermediate Schools" } },
-                                                { title: { value: "Advanced Schools" } },
-                                                { title: { value: "Specialist Schools" } },
+                                                { title: { value: 'Beginner Schools' } },
+                                                { title: { value: 'Intermediate Schools' } },
+                                                { title: { value: 'Advanced Schools' } },
+                                                { title: { value: 'Specialist Schools' } },
                                             ]
                                         }
                                     }
                                 }
                             },
                             {
-                                title: { value: "During Your Stay" },
+                                title: { value: 'During Your Stay' },
                                 items: {
                                     value: {
                                         collection: {
                                             value: [
-                                                { title: { value: "Golf Lodge" } },
-                                                { title: { value: "Restaurant & Bar" } },
-                                                { title: { value: "Places to Visit" } },
-                                                { title: { value: "FAQ" } },
+                                                { title: { value: 'Golf Lodge' } },
+                                                { title: { value: 'Restaurant & Bar' } },
+                                                { title: { value: 'Places to Visit' } },
+                                                { title: { value: 'FAQ' } },
                                             ]
                                         }
                                     }
                                 }
                             },
                             {
-                                title: { value: "About Us" },
+                                title: { value: 'About Us' },
                                 items: {
                                     value: {
                                         collection: {
                                             value: [
-                                                { title: { value: "Why Us?" } },
-                                                { title: { value: "Testimonials" } },
-                                                { title: { value: "In the Media" } },
-                                                { title: { value: "How to find us" } },
+                                                { title: { value: 'Why Us?' } },
+                                                { title: { value: 'Testimonials' } },
+                                                { title: { value: 'In the Media' } },
+                                                { title: { value: 'How to find us' } },
                                             ]
                                         }
                                     }
