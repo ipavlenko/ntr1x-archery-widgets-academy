@@ -20,7 +20,7 @@
     Widgets.Item(Widgets.FootersGroup, {
         name: 'academy-footer',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/footer/footer.png',
-        widget: Widgets.build(FooterWidget, {
+        widget: (context) => Promise.resolve(Widgets.build(FooterWidget, {
             outer: {
                 value: {
                     background: { value: '#0B3C55' },
@@ -37,8 +37,8 @@
             tw: { value: 'https://twitter.com/bookAgolf' },
             fb: { value: 'https://ru-ru.facebook.com/bookagolf' },
             gl: { value: 'https://plus.google.com/communities/102202642996727382512' },
-            copy: { value: `Copyright 2016 © MoscowAcademy.com` },
-        }),
+            copy: { value: 'Copyright 2016 © MoscowAcademy.com' },
+        })),
     });
 
 })(jQuery, Vue, Core, Widgets);

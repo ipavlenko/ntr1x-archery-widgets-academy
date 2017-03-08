@@ -43,7 +43,7 @@
     Widgets.Item(Widgets.OffersGroup, {
         name: 'academy-offer-big',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/offer/offer-big.png',
-        widget: BigOfferWidgetFactory("url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/offer.jpg') no-repeat"),
+        widget: (context) => Promise.resolve(BigOfferWidgetFactory("url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/offer.jpg') no-repeat")),
     });
 
     var SmallOfferWidget =
@@ -77,7 +77,7 @@
     Widgets.Item(Widgets.OffersGroup, {
         name: 'academy-offer-small',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/offer/offer-small.png',
-        widget: SmallOfferWidgetFactory("#164767 url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/brochure.png') no-repeat top right"),
+        widget: (context) => Promise.resolve(SmallOfferWidgetFactory("#164767 url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/brochure.png') no-repeat top right")),
     });
 
     var AboveOfferWidget =
@@ -110,7 +110,7 @@
     Widgets.Item(Widgets.OffersGroup, {
         name: 'academy-offer-above',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/offer/offer-above.png',
-        widget: AboveOfferWidgetFactory("url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/beginner.jpg') no-repeat center center"),
+        widget: (context) => Promise.resolve(AboveOfferWidgetFactory("url('/assets/vendor/ntr1x-archery-widgets-academy/src/offer/img/beginner.jpg') no-repeat center center")),
     });
 
 })(jQuery, Vue, Core, Widgets);

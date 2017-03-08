@@ -20,7 +20,7 @@
     Widgets.Item(Widgets.HeadersGroup, {
         name: 'academy-header',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/header/header.png',
-        widget: Widgets.build(HeaderWidget, {
+        widget: (context) => Promise.resolve(Widgets.build(HeaderWidget, {
             outer: {
                 value: {
                     background: { value: '#F5F5F5' },
@@ -42,7 +42,7 @@
                 <h1>Voted the UK's<br />Leading Residential<br />Golf School</h1>
                 <h3>by Today’s Golfer Magazine</h3>
             ` },
-        }),
+        })),
     });
 
 })(jQuery, Vue, Core, Widgets);

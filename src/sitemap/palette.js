@@ -69,7 +69,7 @@
     Widgets.Item(Widgets.NavigationGroup, {
         name: 'academy-sitemap',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/sitemap/sitemap.png',
-        widget: Widgets.build(SitemapWidget, {
+        widget: (context) => Promise.resolve(Widgets.build(SitemapWidget, {
             outer: {
                 value: {
                     background: { value: '#266181' },
@@ -133,7 +133,7 @@
                     }
                 }
             },
-        }),
+        })),
     });
 
 })(jQuery, Vue, Core, Widgets);

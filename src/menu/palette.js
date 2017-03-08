@@ -36,7 +36,7 @@
     Widgets.Item(Widgets.NavigationGroup, {
         name: 'academy-menu',
         thumbnail: '/assets/vendor/ntr1x-archery-widgets-academy/src/menu/menu.png',
-        widget: Widgets.build(MenuWidget, {
+        widget: (context) => Promise.resolve(Widgets.build(MenuWidget, {
             outer: {
                 value: {
                     background: { value: '#266181' },
@@ -57,14 +57,14 @@
                     },
                     collection: {
                         value: [
-                            { vlink: { value: "" }, title: { value: "Home" }, active: { value: true } },
-                            { vlink: { value: "courses" }, title: { value: "Courses" }, },
-                            { vlink: { value: "about" }, title: { value: "About" }, },
+                            { vlink: { value: '' }, title: { value: 'Home' }, active: { value: true } },
+                            { vlink: { value: 'courses' }, title: { value: 'Courses' }, },
+                            { vlink: { value: 'about' }, title: { value: 'About' }, },
                         ]
                     }
                 }
             },
-        }),
+        })),
     });
 
 })(jQuery, Vue, Core, Widgets);
