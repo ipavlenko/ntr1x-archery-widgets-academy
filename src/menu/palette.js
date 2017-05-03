@@ -7,6 +7,7 @@
     Widgets.Widget(Widgets.NavigationGroup, Widgets.create({
         name: 'academy-menu',
         tag: 'academy-menu',
+        title: 'Academy Menu',
         mixins: [ Widgets.WidgetMixin, Widgets.BoxMixin, Widgets.SizeMixin ],
         props: [
             {
